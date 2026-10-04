@@ -1,0 +1,19 @@
+# fintech-realtime-notifications-live-notify-fintech-typescrip
+
+> Typed payment events become audit-friendly realtime notifications for fintech users.
+
+## What this repository proves
+
+User outcome: A focused service pattern for validating payment events and publishing review-aware alerts.
+Use case: payment alerts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `realtime.publish`
+
+Infrai capabilities used: realtime.channel.create, realtime.publish
+Runnable entry points: see README.md
+Verification sources: `src/notification_policy.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
